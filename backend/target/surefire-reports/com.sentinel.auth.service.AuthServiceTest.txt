@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sentinel.auth.service.AuthServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.241 s -- in com.sentinel.auth.service.AuthServiceTest

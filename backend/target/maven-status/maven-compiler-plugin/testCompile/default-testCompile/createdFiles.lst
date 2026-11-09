@@ -1,0 +1,4 @@
+com\sentinel\analytics\service\AnalyticsServiceTest.class
+com\sentinel\incident\service\IncidentServiceTest.class
+com\sentinel\monitoring\service\UrlValidatorTest.class
+com\sentinel\auth\service\AuthServiceTest.class

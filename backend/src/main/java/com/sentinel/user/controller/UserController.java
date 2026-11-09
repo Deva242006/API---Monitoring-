@@ -48,3 +48,4 @@ public class UserController {
         return ResponseEntity.ok(ApiResponse.success("User deactivated"));
     }
 }
+

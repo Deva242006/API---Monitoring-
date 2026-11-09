@@ -20,3 +20,4 @@ public class UpdateUserRequest {
     public String getPhone() { return phone; }
     public void setPhone(String phone) { this.phone = phone; }
 }
+

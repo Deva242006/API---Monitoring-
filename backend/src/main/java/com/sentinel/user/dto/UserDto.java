@@ -40,3 +40,4 @@ public class UserDto {
     public String getLastLoginAt() { return lastLoginAt; }
     public void setLastLoginAt(String lastLoginAt) { this.lastLoginAt = lastLoginAt; }
 }
+

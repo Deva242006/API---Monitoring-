@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:sentinel_test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+
+  flyway:
+    enabled: false
+
+  mail:
+    host: localhost
+    port: 2525
+    test-connection: false
+
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+  access-token-expiration: 900000
+  refresh-token-expiration: 604800000
+
+monitoring:
+  default-interval-seconds: 60
+  thread-pool-size: 2
+  max-timeout-ms: 5000
+  failure-threshold: 3
+
+cors:
+  allowed-origins: http://localhost:5173
+
+logging:
+  level:
+    com.sentinel: DEBUG
+

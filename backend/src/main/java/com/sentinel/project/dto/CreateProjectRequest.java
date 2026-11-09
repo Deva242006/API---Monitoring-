@@ -20,3 +20,4 @@ public class CreateProjectRequest {
     public List<Long> getMemberIds() { return memberIds; }
     public void setMemberIds(List<Long> memberIds) { this.memberIds = memberIds; }
 }
+
