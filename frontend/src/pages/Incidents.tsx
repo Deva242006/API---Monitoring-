@@ -337,3 +337,4 @@ export const Incidents: React.FC = () => {
     </div>
   );
 };
+
